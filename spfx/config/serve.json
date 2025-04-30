@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "initialPage": "ttps://deepflowau.sharepoint.com/sites/SPFX-DEV/_layouts/workbench.aspx",
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://deepflowau.sharepoint.com/sites/SPFX-DEV/sitepages/Home.aspx",
+      "customActions": {}
+    }
+  }
+}

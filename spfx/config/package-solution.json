@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jmdt-sp-controls-client-side-solution",
+    "id": "37c18a12-d251-47f9-b406-952021fa2819",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "jmdt-sp-controls description"
+      },
+      "longDescription": {
+        "default": "jmdt-sp-controls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jmdt-sp-controls Feature",
+        "description": "The feature that activates elements of the jmdt-sp-controls solution.",
+        "id": "409ec956-c025-4771-9630-38db4edfb78e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/jmdt-sp-controls.sppkg"
+  }
+}

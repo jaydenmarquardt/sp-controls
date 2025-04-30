@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jmdt-sp-controls-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/index.js",
+          "manifest": "./src/libraries/jmdtSpControls/JmdtSpControlsLibrary.manifest.json"
+        }
+      ]
+    },
+    "testing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testing/TestingWebPart.js",
+          "manifest": "./src/webparts/testing/TestingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {}
+}
